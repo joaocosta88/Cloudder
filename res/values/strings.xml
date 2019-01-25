@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cloudder</string>
+    <string name="link_db">Link with Dropbox</string>
+    <string name="image_desc">file icon</string>
+    <string name="go_back_tile">..</string>
+    <string name="go_back_desc">Go to previous directory</string>
+    <string name="no_connection_main_frag">"Can\'t connect to the internet.\r\nCheck your connectivity status."</string>
+    <string name="empty_queue">No files to be uploaded or downloaded.</string>
+    <string name="empty_dir">You haven\'t downloaded any file, yet.</string>
+    <string name="file_icon">File icon</string>
+    <string name="chooser_text">Choose a cloud service</string>
+
+    <!-- Optins menu strings -->
+    <string name="menu_upload">Upload</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_download_selected">Download selected</string>
+    <string name="menu_delete_selected">Delete selected</string>
+    <string name="menu_sync_selected">Sync selected</string>
+    <string name="menu_sync_all">Sync all</string>
+    <string name="menu_delete_all">Delete all</string>
+
+    <!-- services -->
+    <string name="dropbox">Dropbox</string>
+    <string name="gdrive">Google\nDrive</string>
+    <string name="box">Box</string>
+    <string name="skydrive">Microsoft\nSkydrive</string>
+
+    <array name="file_types">
+        <item>Sound</item>
+        <item>Image/Video</item>
+        <item>Other</item>
+    </array>
+
+    <!-- Preferences strings -->
+    <string name="pref_content_observer">Content observer</string>
+    <string name="pref_default_service_co">Default service</string>
+    <string name="choose_default_service">Choose default service</string>
+    <string name="user_smart_upload">Use smart upload</string>
+
+    <string-array name="battery_percentage">
+        <item>5%</item>
+        <item>10%</item>
+        <item>15%</item>
+        <item>20%</item>
+        <item>25%</item>
+    </string-array>
+    <string-array name="battery_percentage_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+    </string-array>
+
+    <string name="default_percentage">15</string>
+
+</resources>

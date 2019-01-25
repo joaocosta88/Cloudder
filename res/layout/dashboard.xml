@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.layla.cloudder.utils.DashboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dash_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_db"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/dropbox"
+        android:text="@string/dropbox" />
+
+    <Button
+        android:id="@+id/btn_gdrive"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/drive"
+        android:text="@string/gdrive" />
+
+    <!-- 
+    <Button
+        android:id="@+id/btn_skydrive"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/skydrive"
+        android:text="@string/skydrive" /> -->
+
+    <Button
+        android:id="@+id/btn_box"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/box"
+        android:text="@string/box" />
+
+</com.layla.cloudder.utils.DashboardLayout>

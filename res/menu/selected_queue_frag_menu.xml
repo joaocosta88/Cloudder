@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/selected_queue_sync"
+        android:icon="@drawable/menu_sync"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_sync_selected"/>
+    
+     <item
+        android:id="@+id/selected_queue_delete"
+        android:icon="@drawable/menu_delete"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/menu_delete_selected"/>
+
+</menu>

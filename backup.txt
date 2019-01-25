@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="lib" path="C:/Android/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/workspace/Cloudder/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/workspace/Cloudder/libs/dropbox-android-sdk-1.5.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/workspace/Cloudder/libs/httpclient-4.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/workspace/Cloudder/libs/httpcore-4.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/workspace/Cloudder/libs/json_simple-1.1.jar"/>
+	<classpathentry kind="con" path="com.google.gdt.eclipse.managedapis.MANAGED_API_CONTAINER/drive-v2r59lv1.12.0-beta"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

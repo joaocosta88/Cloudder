@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/dropbox</item>
+        <item>@drawable/drive</item>
+        <item>@drawable/box</item>
+        <item>@drawable/skydrive</item>
+    </array>
+    <array name="names">
+        <item>Dropbox</item>
+        <item>Google Drive</item>
+        <item>Box</item>
+        <item>Microsoft Skydrive</item>
+    </array>
+    
+</resources>

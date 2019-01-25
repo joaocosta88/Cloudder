@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Preferences" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="useNotifications"
+        android:summary="Use notifications when files are synced"
+        android:title="Use notifications" />
+
+    <!-- smart upload -->
+    <PreferenceCategory
+        android:key="SmartUploadCat"
+        android:title="@string/user_smart_upload" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="useSmartUpload"
+            android:summary="Files will be uploaded in background if battery is above a certain percentage and wi-fi is connected"
+            android:title="Use Smart Upload" />
+
+        <ListPreference
+            android:dependency="useSmartUpload"
+            android:dialogTitle="Choose percentage"
+            android:key="pref_key_minimum_battery"
+            android:entryValues="@array/battery_percentage_values"
+            android:entries="@array/battery_percentage"
+            android:defaultValue="@string/default_percentage"
+            android:title="Minimum battery" />
+    </PreferenceCategory>
+
+    <!-- services manager -->
+
+    <PreferenceCategory
+        android:key="pref_key_services_manager"
+        android:title="Services manager" >
+        <Preference
+            android:key="register_service"
+            android:summary="Register another service"
+            android:title="Services manager" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
